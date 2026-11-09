@@ -1,0 +1,8 @@
+data/*
+!data/README.txt
+figures/*
+analysis/results_*
+analysis/*.csv
+analysis/*.json
+!analysis/expected_results.json
+__pycache__/

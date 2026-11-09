@@ -1,0 +1,235 @@
+{
+ "table5": {
+  "RagaSeq-D": 167,
+  "Pitch-class": 139,
+  "TDMS": 162
+ },
+ "table6": {
+  "CompMusic development (10 x 5)": [
+   0.86,
+   0.9
+  ],
+  "CompMusic held-out (14 x 5)": [
+   0.8429,
+   0.8429
+  ],
+  "CompMusic expanded (30 raags, 218)": [
+   0.7294,
+   0.7661
+  ],
+  "DAP-Lab alap (197)": [
+   0.934,
+   0.9391
+  ],
+  "DAP-Lab pakad (102)": [
+   0.8627,
+   0.8725
+  ]
+ },
+ "length": {
+  "150": [
+   0.6959,
+   0.7371
+  ],
+  "300": [
+   0.8093,
+   0.8866
+  ],
+  "600": [
+   0.866,
+   0.9485
+  ]
+ },
+ "allied_pooled": {
+  "150": [
+   0.8182,
+   0.8687
+  ],
+  "600": [
+   0.8667,
+   0.9889
+  ]
+ },
+ "dap": {
+  "alap|RagaSeq-D": 185,
+  "alap|Pitch-class distribution": 181,
+  "alap|TDMS": 181,
+  "alap|RagaSeq-D k = 1": 184,
+  "alap|RagaSeq-D k = 2": 183,
+  "alap|RagaSeq-D k = 4": 183,
+  "alap|McNemar RagaSeq-D vs TDMS": 6,
+  "alap|McNemar RagaSeq-D vs Pitch-class distribution": 6,
+  "pakad|RagaSeq-D": 89,
+  "pakad|Pitch-class distribution": 90,
+  "pakad|TDMS": 82,
+  "pakad|RagaSeq-D k = 1": 88,
+  "pakad|RagaSeq-D k = 2": 92,
+  "pakad|RagaSeq-D k = 4": 77,
+  "pakad|McNemar RagaSeq-D vs TDMS": 17,
+  "pakad|McNemar RagaSeq-D vs Pitch-class distribution": 6
+ },
+ "saraga": {
+  "RagaSeq-D": 5,
+  "Pitch-class distribution (Chordia & Rae 2007)": 5,
+  "TDMS (Gulati et al. 2016b)": 9,
+  "RagaSeq-D k = 1": 5,
+  "RagaSeq-D k = 2": 6,
+  "RagaSeq-D k = 4": 5
+ },
+ "order_test_intact": {
+  "CompMusic expanded, 150 s|RagaSeq-D k=1": 0.7294,
+  "CompMusic expanded, 150 s|RagaSeq-D k=3": 0.7661,
+  "CompMusic expanded, 150 s|PCD": 0.6835,
+  "CompMusic expanded, 150 s|FPD": 0.7339,
+  "CompMusic expanded, 150 s|TDMS": 0.8394,
+  "CompMusic long, 600 s|RagaSeq-D k=1": 0.866,
+  "CompMusic long, 600 s|RagaSeq-D k=3": 0.9485,
+  "CompMusic long, 600 s|PCD": 0.8454,
+  "CompMusic long, 600 s|FPD": 0.8505,
+  "CompMusic long, 600 s|TDMS": 0.9278,
+  "DAP-Lab alap|RagaSeq-D k=1": 0.934,
+  "DAP-Lab alap|RagaSeq-D k=3": 0.9391,
+  "DAP-Lab alap|PCD": 0.9188,
+  "DAP-Lab alap|FPD": 0.8477,
+  "DAP-Lab alap|TDMS": 0.9289
+ },
+ "order_test_full_mean": {
+  "CompMusic expanded, 150 s|RagaSeq-D k=1": 0.7294,
+  "CompMusic expanded, 150 s|RagaSeq-D k=3": 0.5129,
+  "CompMusic expanded, 150 s|PCD": 0.6835,
+  "CompMusic expanded, 150 s|FPD": 0.7339,
+  "CompMusic expanded, 150 s|TDMS": 0.7913,
+  "CompMusic long, 600 s|RagaSeq-D k=1": 0.866,
+  "CompMusic long, 600 s|RagaSeq-D k=3": 0.7402,
+  "CompMusic long, 600 s|PCD": 0.8454,
+  "CompMusic long, 600 s|FPD": 0.8505,
+  "CompMusic long, 600 s|TDMS": 0.8822,
+  "DAP-Lab alap|RagaSeq-D k=1": 0.934,
+  "DAP-Lab alap|RagaSeq-D k=3": 0.7906,
+  "DAP-Lab alap|PCD": 0.9188,
+  "DAP-Lab alap|FPD": 0.8477,
+  "DAP-Lab alap|TDMS": 0.8294
+ },
+ "gee_L600_order_OR": 2.365,
+ "section": {
+  "central 150 s": [
+   0.6959,
+   0.7371
+  ],
+  "central 600 s": [
+   0.866,
+   0.9485
+  ],
+  "block 1 of 4 (150 s)": [
+   0.6701,
+   0.6907
+  ],
+  "block 2 of 4 (150 s)": [
+   0.7062,
+   0.732
+  ],
+  "block 3 of 4 (150 s)": [
+   0.6856,
+   0.7268
+  ],
+  "block 4 of 4 (150 s)": [
+   0.6856,
+   0.7371
+  ],
+  "spread 150 s (20 x 7.5 s)": [
+   0.7887,
+   0.8144
+  ],
+  "mean of four 150-s blocks": [
+   0.6869,
+   0.7216
+  ]
+ },
+ "frontend_600": {
+  "baseline (paper)": [
+   0.866,
+   0.9485
+  ],
+  "tonic +10 cents": [
+   0.8608,
+   0.9433
+  ],
+  "tonic -10 cents": [
+   0.8608,
+   0.9227
+  ],
+  "tonic +25 cents": [
+   0.8196,
+   0.9278
+  ],
+  "tonic -25 cents": [
+   0.8144,
+   0.8918
+  ],
+  "tonic random error, SD 15 cents": [
+   0.8299,
+   0.9124
+  ],
+  "tonic random error, SD 30 cents": [
+   0.5722,
+   0.6443
+  ],
+  "no smoothing": [
+   0.8454,
+   0.9021
+  ],
+  "5-frame smoothing": [
+   0.8505,
+   0.9227
+  ],
+  "5 Hz frames": [
+   0.8557,
+   0.9227
+  ],
+  "20 Hz frames": [
+   0.8505,
+   0.9021
+  ],
+  "split at gaps > 0.5 s": [
+   0.866,
+   0.9639
+  ],
+  "notes < 0.2 s removed": [
+   0.8918,
+   0.9742
+  ],
+  "12 just-intonation states": [
+   0.8763,
+   0.9381
+  ],
+  "24 quarter-tone states": [
+   0.8505,
+   0.9278
+  ]
+ },
+ "shuffle_full_mean": {
+  "Development (10 raags x 5)": 0.7533,
+  "Held-out test (14 raags x 5)": 0.6445,
+  "Expanded (30 raags, 218)": 0.5124
+ },
+ "table2": {
+  "sw_same": 0.1197,
+  "sw_cross": 0.0967,
+  "jsd_same": 0.8853,
+  "jsd_cross": 0.9262
+ },
+ "table3": {
+  "dev": {
+   "RagaSeq-D": 45,
+   "Pitch-class": 42,
+   "TDMS": 45,
+   "Original": 36
+  },
+  "test": {
+   "RagaSeq-D": 59,
+   "Pitch-class": 54,
+   "TDMS": 60,
+   "Original": 53
+  }
+ }
+}
